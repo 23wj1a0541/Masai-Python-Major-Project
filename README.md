@@ -1,7 +1,7 @@
-# Masai-Python-Major-Project(School Student Attendance Analysis & Proxy Detection)
+# Masai-Python-Major-Project (School Student Attendance Analysis & Proxy Detection)
 
 ## Problem Statement
-Design an automatic attendance taking system for a class of 600. How would you keep a  track of proxies and low attendance notifications to students. 
+Design an automatic attendance taking system for a class of 600. How would you keep a track of proxies and low attendance notifications to students.
 
 ## Overview
 This project analyzes daily student attendance data across multiple schools to identify students with low attendance and potential proxy behavior. Using the first 600 entries of the publicly available **School-Student-Daily-Attendance** dataset, the project calculates attendance percentages, flags students below a 75% threshold, detects proxy attendance patterns, generates notifications, and visualizes key insights for instructors.
@@ -16,14 +16,14 @@ The dataset was sourced from the [School-Student-Daily-Attendance GitHub reposit
 It contains the following columns:
 
 | Column Name | Description |
-|---------------|------------------------------------------------------|
-| `School DBN`  | Unique identifier for each school                    |
-| `Date`        | Date of the attendance record                        |
-| `Enrolled`    | Total number of classes a student is enrolled in     |
-| `Absent`      | Number of classes a student was absent for           |
-| `Present`     | Number of classes a student was present for          |
+|---------------|----------------------------------------------------------|
+| `School DBN`  | Unique identifier for each school                        |
+| `Date`        | Date of the attendance record                            |
+| `Enrolled`    | Total number of classes a student is enrolled in         |
+| `Absent`      | Number of classes a student was absent for               |
+| `Present`     | Number of classes a student was present for              |
 | `Released`    | Number of classes for which a student had approved leave |
-| `Roll_No`     | Unique identifier added manually to categorize students |
+| `Roll_No`     | Unique identifier added manually to categorize students  |
 
 For this project, only the first **600 entries** were used to simplify analysis and demonstrate the methodology.
 
@@ -41,16 +41,6 @@ The repository contains the following files:
 -   **Plots/Visuals:**
     -   `attendance_histogram.png` – A histogram showing the distribution of student attendance percentages.
     -   `proxy_bar_chart.png` – A bar chart of the top students with high proxy risk scores.
-
-### Visual Examples:
-Here are examples of the plots generated:
-
-**Attendance Percentage Histogram**
-This histogram visualizes the distribution of attendance percentages across all students, helping to identify common attendance ranges and potential clusters of low attendance.
-![Attendance Histogram]
-**Proxy Risk Bar Chart**
-This bar chart displays the top students identified with the highest proxy risk scores, making it easy to spot individuals requiring further investigation.
-![Proxy Bar Chart]
 
 ---
 
@@ -93,6 +83,18 @@ These visualizations allow instructors to quickly monitor attendance trends and 
 -   **Attendance Alerts:** Alerts were successfully generated for all students, with a separate report for those below the 75% threshold.
 -   **Proxy Risk:** The top 10 students with suspected proxy behavior were identified and visualized.
 -   **Visual Insights:** Histograms and boxplots helped in clearly identifying clusters of low-attendance students.
+
+### Visualizations
+
+#### Attendance Percentage Histogram
+This histogram visualizes the distribution of attendance percentages across all students, helping to identify common attendance ranges and potential clusters of low attendance.
+
+![Attendance Histogram](attendance_histogram.png)
+
+#### Top Proxy Risk Students
+This bar chart displays the top students identified with the highest proxy risk scores, making it easy to spot individuals requiring further investigation.
+
+![Proxy Bar Chart](proxy_bar_chart.png)
 
 ### Example Notification Table
 

@@ -1,0 +1,1 @@
+This folder consists of the output csv files and images of plot graphs.

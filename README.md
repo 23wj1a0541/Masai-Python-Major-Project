@@ -63,3 +63,10 @@ The methodology of the project can be summarized in four main steps:
   - `Proxy_Soft_Outlier` identifies minor anomalies  
   - `Proxy_Row_Score` aggregates suspicious behavior  
 - Students with high proxy scores are listed in `proxy_risk_report.csv`.
+
+### 3. Automated Notifications
+- For students below attendance threshold:  
+```text
+Dear [Roll No], your attendance is [Attendance %] ([Present]/[Enrolled]). Please improve to reach at least 75%.
+Messages were stored in attendance_alerts_low_only.csv for low-attendance students.
+attendance_alerts_all.csv contains notifications for all students.

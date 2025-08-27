@@ -89,12 +89,12 @@ These visualizations allow instructors to quickly monitor attendance trends and 
 #### Attendance Percentage Histogram
 This histogram visualizes the distribution of attendance percentages across all students, helping to identify common attendance ranges and potential clusters of low attendance.
 
-![Attendance Histogram](attendance_histogram.png)
+![Attendance Histogram](Output/attendance_histogram.png)
 
 #### Top Proxy Risk Students
 This bar chart displays the top students identified with the highest proxy risk scores, making it easy to spot individuals requiring further investigation.
 
-![Proxy Bar Chart](proxy_bar_chart.png)
+![Proxy Bar Chart](Output/proxy_bar_chart.png)
 
 ### Example Notification Table
 

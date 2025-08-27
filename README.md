@@ -42,6 +42,16 @@ The repository contains the following files:
     -   `attendance_histogram.png` – A histogram showing the distribution of student attendance percentages.
     -   `proxy_bar_chart.png` – A bar chart of the top students with high proxy risk scores.
 
+### Visual Examples:
+Here are examples of the plots generated:
+
+**Attendance Percentage Histogram**
+This histogram visualizes the distribution of attendance percentages across all students, helping to identify common attendance ranges and potential clusters of low attendance.
+![Attendance Histogram]
+**Proxy Risk Bar Chart**
+This bar chart displays the top students identified with the highest proxy risk scores, making it easy to spot individuals requiring further investigation.
+![Proxy Bar Chart]
+
 ---
 
 ## Methodology
@@ -134,5 +144,3 @@ These visualizations allow instructors to quickly monitor attendance trends and 
 -   Provost, Foster, and Tom Fawcett. *Data Science for Business*. O’Reilly Media, 2013.
 -   Romero, Cristóbal, and Sebastián Ventura. “Educational Data Mining: A Review of the State of the Art.” *IEEE Transactions on Systems, Man, and Cybernetics, Part C*, vol. 40, no. 6, 2010, pp. 601–618.
 -   Baker, Ryan S.J.d. “Data Mining for Education.” *International Encyclopedia of Education*, 3rd Edition, 2010.
-Messages were stored in attendance_alerts_low_only.csv for low-attendance students.
-attendance_alerts_all.csv contains notifications for all students.
